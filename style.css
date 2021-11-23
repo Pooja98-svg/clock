@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;    
+}                                 /* Removing unexpected spaces   */
+.container{
+    height:100vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clock{
+    height: 500px;
+    width:500px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 70px;
+    position: relative;
+    box-shadow: 7px 7px 9px gray,-6px -6px 8px gray;
+    background: crimson;
+ }
+ .point{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:47%;
+    left:46%;
+    border-radius: 50%;
+    background: black;
+    z-index:4;
+    
+ }
+#one{
+     position: absolute;
+     top:40px;
+     right:130px;
+     font-weight: bold;
+     font-size: 25px;  
+    
+ }
+ #two{
+    position: absolute;
+    top:125px;
+    right:45px;
+    font-weight: bold;
+    font-size: 25px;  
+
+ }
+ #three{
+     position: absolute;
+     top:235px;
+     right:10px;
+     font-weight: bold;
+     font-size: 25px;  
+ }
+ #four{
+    position: absolute;
+     top:345px;
+     right:45px;
+    font-weight: bold;
+    font-size: 25px;  
+}
+#five{
+    position: absolute;
+    top:430px;
+    right:130px;
+    font-weight: bold;
+    font-size: 25px;  
+}
+#six{
+   position: absolute;
+    bottom:10px;
+    left: 240px;
+    font-weight: bold;
+    font-size: 25px;  
+}
+#seven{
+    position: absolute;
+    top:430px;
+    left: 130px;
+    font-weight: bold;
+    font-size: 25px;  
+}
+#eight{
+    position:absolute;
+    top:345px;
+    left:45px;
+    font-weight: bold;
+    font-size: 25px;  
+}
+#nine{
+    position: absolute;
+    top:235px;
+    left:10px;
+    font-weight: bold;
+    font-size: 25px;  
+}
+#ten{
+    position: absolute;
+    top:125px;
+    left:45px;
+    font-weight: bold;
+    font-size: 25px;  
+}
+#eleven{
+    position: absolute;
+    top: 45px;
+    left:130px;
+    font-weight: bold;
+    font-size: 25px;  
+}
+#twelve{
+    position: absolute;
+    top:10px;
+    left:235px;
+    font-weight: bold;
+    font-size: 25px;  
+}
+#hhour{
+    width:10px;
+    height: 120px;
+    background: blue;
+    position: absolute;
+    top:25%;
+    left: 47%;
+    border-radius: 50% 50% 0px 0px;
+    transform-origin: bottom;
+    z-index: 2;
+}
+#min{
+    width:8px;
+    height: 175px;
+    background:blue;
+    position: absolute;
+    top:14%;
+    left: 47%;
+    border-radius: 50% 50% 0px 0px;
+    transform-origin: bottom;
+    z-index: 1;
+}
+#sec{
+    width:5px;
+    height: 140px;
+    background:darkolivegreen;
+    position: absolute;
+    top:21%;
+    left: 48%;
+    transform-origin: bottom;
+    z-index: 3;
+}
